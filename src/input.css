@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rainbow-gradient-text {
+    /* Apply a rainbow gradient to the text */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Fancy button styles - adjust this to your liking */
+.buttons-container button {
+    background-color: hsl(220, 50%, 50%);
+    /* Example: A blue hue */
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#myCanvas {
+    width: 100vw;
+    /* Occupy full viewport width */
+    max-width: 800px;
+    /* Limit maximum width to 800px */
+    height: 80vh;
+    /* Occupy full viewport height */
+    border: 2px solid black;
+    /* Example border */
+}

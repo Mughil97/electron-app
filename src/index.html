@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coloring App</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="min-h-screen flex flex-col items-center">
+
+    <h1 class="rainbow-gradient-text">Coloring App</h1>
+
+    <canvas id="myCanvas" width="800px" height="1200px"></canvas>
+
+    <div class="buttons-container flex justify-end">
+        <button id="clearButton">Clear</button>
+        <button id="saveButton">Save</button>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="render.js"></script>
+</body>
+
+</html>
